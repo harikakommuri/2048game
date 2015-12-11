@@ -1,0 +1,17 @@
+.cell {
+  border-radius: 1%;
+  background: lightgrey;
+  height: 80px;
+  width: 100px;
+  text-align: center;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+table {
+  border-radius:2%;
+  background: grey;
+  width: 400px;;
+  height: 50%;
+  margin: 0 auto;
+  padding: 5px;
+}

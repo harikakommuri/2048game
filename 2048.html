@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>2048</title>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="2048.css">
+  <script type="text/javascript" src="jquery-1.11.3.js"></script>
+  <script type="text/javascript" src="2048.js"></script>
+</head>
+<body onkeyup="slide(event)">
+  <div class="row">
+    <div class="col-sm-6">
+      <strong>2048</strong>
+    </div>
+    <div class="col-sm-6">
+      <div class="label label-default">Score</div>
+    </div>
+  </div>
+  <table class="grid" cellspacing="10">
+    <tr class="game row">
+      <td class="game cell" id="cell1"></td>
+      <td class="game cell" id="cell2">2</td>
+      <td class="game cell" id="cell3"></td>
+      <td class="game cell" id="cell4">2</td>
+    </tr>
+    <tr class="game row">
+      <td class="game cell" id="cell5"></td>
+      <td class="game cell" id="cell6"></td>
+      <td class="game cell" id="cell7"></td>
+      <td class="game cell" id="cell8"></td>
+    </tr>
+    <tr class="game row">
+      <td class="game cell" id="cell9"></td>
+      <td class="game cell" id="cell10"></td>
+      <td class="game cell" id="cell11"></td>
+      <td class="game cell" id="cell12"></td>
+    </tr>
+    <tr class="game row">
+      <td class="game cell" id="cell13"></td>
+      <td class="game cell" id="cell14"></td>
+      <td class="game cell" id="cell15"></td>
+      <td class="game cell" id="cell16"></td>
+    </tr>
+  </table>
+</body>
+</html>
