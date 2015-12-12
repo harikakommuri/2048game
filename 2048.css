@@ -7,11 +7,60 @@
   font-size: 50px;
   font-family: sans-serif;
 }
-table {
+.grid2048 {
   border-radius:2%;
   background: grey;
-  width: 400px;;
-  height: 50%;
-  margin: 0 auto;
+  width: 450px;;
+  height: 55%;
+left: 450px;
   padding: 5px;
+  top: 180px;
+  position: fixed;
+}
+#gameover {
+  width: 300px;
+  position: fixed;
+  left: 500px;
+  top: 200px;
+  font-size: 50px;
+  font-family: serif;
+}
+.score {
+  border: 1px solid #ff9900;
+  border-radius: 8%;
+  text-align: center;
+  padding: 5px;
+  background: #ff9900;
+  left: 800px;
+  top: 35px;
+  width: 80px;
+  font-family: sans-serif;
+  color: white;
+  position: fixed;
+  font-size: 20px;
+}
+.name {
+    height: 60px;
+    top: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    left: 450px;
+    position: fixed;
+    font-size: 55px;
+}
+.hint {
+left: 450px;
+top: 100px;
+font-family: sans-serif;
+position: fixed;
+}
+.newgame {
+  left: 780px;
+  font-family: sans-serif;
+  top: 120px;
+  position: fixed;
+  background: #665847;
+  font-size: 20px;
+  padding: 5px;
+  color: white;
 }

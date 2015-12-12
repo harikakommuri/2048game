@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
   <title>2048</title>
-  <link rel="stylesheet" href="bootstrap.css">
   <link rel="stylesheet" href="2048.css">
   <script type="text/javascript" src="jquery-1.11.3.js"></script>
   <script type="text/javascript" src="2048.js"></script>
 </head>
 <body onkeyup="slide(event)">
-  <div class="row">
-    <div class="col-sm-6">
-      <strong>2048</strong>
-    </div>
-    <div class="col-sm-6">
-      <div class="label label-default">Score</div>
-    </div>
-  </div>
-  <table class="grid" cellspacing="10">
+  <label class="name">2048</label>
+  <label class="score">Score<br><span class="scorevalue">0</span></label>
+  <label class="newgame">New game</label><br>
+  <p class="hint">Join the numbers and get 2048 tile!</p>
+  <table class="grid2048" cellspacing="10">
     <tr class="game row">
       <td class="game cell" id="cell1"></td>
       <td class="game cell" id="cell2">2</td>
